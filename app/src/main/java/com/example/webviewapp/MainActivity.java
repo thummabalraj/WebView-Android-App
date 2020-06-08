@@ -37,7 +37,7 @@ import com.karumi.dexter.listener.PermissionGrantedResponse;
 import com.karumi.dexter.listener.single.PermissionListener;
 
 public class MainActivity extends AppCompatActivity {
-    private String webUrl = "https://pixabay.com/";
+    private String webUrl = "https://yahoo.com/";
 
     //private String webUrl = getResources().getString(R.string.web_url);
 
