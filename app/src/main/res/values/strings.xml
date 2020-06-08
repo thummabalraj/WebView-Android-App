@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">WebView App</string>
+    <string name="app_name">WebView Android App</string>
     <string name="web_url">https://pixabay.com/</string>
 </resources>
