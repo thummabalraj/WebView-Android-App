@@ -37,7 +37,7 @@ import com.karumi.dexter.listener.PermissionGrantedResponse;
 import com.karumi.dexter.listener.single.PermissionListener;
 
 public class MainActivity extends AppCompatActivity {
-    private String webUrl = "https://yahoo.com/";
+    private String webUrl = "https://www.eenadu.net/";
 
     //private String webUrl = getResources().getString(R.string.web_url);
 
@@ -178,6 +178,16 @@ public class MainActivity extends AppCompatActivity {
         // system behavior (probably exit the activity)
         return super.onKeyDown(keyCode, event);
     }
+
+    // @Override
+    // public void onBackPressed(){
+    //     if(mywebview.canGoBack()) {
+    //     mywebview.goBack();
+    // } else
+    //     {
+    //     super.onBackPressed();
+    //     }
+    // }
 
     public void checkConnectivity() {
 
